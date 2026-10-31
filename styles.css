@@ -19,6 +19,12 @@ h1 em { color: #e0744f; font-family: Georgia, serif; font-weight: 400; letter-sp
 .starship { position: absolute; right: 2%; top: 50%; width: 320px; height: auto; transform: translateY(-50%); }
 .index { position: absolute; right: 0; bottom: 34px; display: flex; align-items: center; gap: 10px; color: #898b82; font-size: 9px; letter-spacing: .1em; }
 .index i { width: 35px; height: 1px; background: #d3d4cb; }
+.projects { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 30px; padding: 54px 0 62px; border-top: 1px solid #dedfd7; }
+.projects-heading .eyebrow { margin-bottom: 12px; }
+.projects h2 { margin: 0; font-size: 28px; font-weight: 500; letter-spacing: -.05em; }
+.projects-link { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0; color: #51544b; border-bottom: 1px solid #c9cbc2; text-decoration: none; font-size: 14px; }
+.projects-link:hover { color: #e0744f; border-color: #e0744f; }
+.projects-arrow { font-size: 18px; }
 @media (max-width: 600px) {
   main { width: calc(100% - 40px); }
   header { min-height: 72px; }
@@ -28,4 +34,5 @@ h1 em { color: #e0744f; font-family: Georgia, serif; font-weight: 400; letter-sp
   .intro { min-height: 700px; padding: 80px 0 100px; }
   h1 { font-size: clamp(54px, 12vw, 76px); }
   .starship { right: -6%; top: 55%; width: 205px; opacity: .9; }
+  .projects { grid-template-columns: 1fr; gap: 12px; padding: 38px 0 46px; }
 }
