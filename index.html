@@ -15,38 +15,20 @@
       <p class="eyebrow">A LITTLE ABOUT ME</p>
       <h1 id="intro-title">I love making<br><span>things that</span><br><em>solve problems.</em></h1>
       <p class="summary">Curious by nature. Happiest turning a good idea into something real.</p>
-      <svg class="starship" viewBox="0 0 360 850" role="img" aria-label="Stylized two-stage Starship and Super Heavy rocket in flight">
+      <svg class="starship" viewBox="0 0 360 360" role="img" aria-label="Illustration of a rocket ascending">
         <defs>
-          <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#888b86"/><stop offset=".18" stop-color="#d7d8d1"/><stop offset=".48" stop-color="#f5f4ed"/><stop offset=".76" stop-color="#c5c7c0"/><stop offset="1" stop-color="#777a75"/></linearGradient>
-          <linearGradient id="exhaust" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff1bd"/><stop offset=".38" stop-color="#ef9b61" stop-opacity=".8"/><stop offset="1" stop-color="#e0744f" stop-opacity="0"/></linearGradient>
+          <linearGradient id="rocket-hull" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#d6d8d0"/></linearGradient>
+          <linearGradient id="rocket-flame" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5bd7c"/><stop offset="1" stop-color="#e0744f" stop-opacity="0"/></linearGradient>
         </defs>
-        <circle cx="180" cy="280" r="218" fill="#efeee6"/>
-        <g fill="#aaa99c"><circle cx="55" cy="143" r="2"/><circle cx="292" cy="166" r="2.5"/><circle cx="300" cy="360" r="1.8"/><circle cx="61" cy="405" r="1.5"/><circle cx="238" cy="80" r="1.5"/></g>
-        <g transform="rotate(9 180 290)">
-        <!-- Long stainless body, pointed nose and tapered engine section -->
-        <path d="M180 36c-8 17-25 43-31 72l-7 48v155c0 17 8 31 18 40l4 15h32l4-15c10-9 18-23 18-40V156l-7-48c-6-29-23-55-31-72Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
-        <!-- Dark heat-shield side and tiled edge -->
-        <path d="M180 39c7 16 19 43 23 70l6 48v154c0 17-5 29-13 38l-5 17h-11Z" fill="#343a3b" opacity=".88"/>
-        <path d="M181 40c-8 20-15 45-18 69l-7 47v155c0 16 6 29 14 39m51-195h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80" fill="none" stroke="#999b94" stroke-width="1" opacity=".65"/>
-        <!-- Forward flaps -->
-        <path d="m145 151-27 20-8 42 35-14Zm70 0 27 20 8 42-35-14Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
-        <!-- Aft flaps -->
-        <path d="m144 292-37 14 7 44 47-21Zm72 0 37 14-7 44-47-21Z" fill="#aeb1ab" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M144 159h72M143 287h74M164 363h32" stroke="#666a66" stroke-width="2"/>
-        <path d="M169 83h22" stroke="#aeb1ab" stroke-width="2" opacity=".75"/>
-        <!-- Super Heavy booster stage, joined directly to Starship -->
-        <g transform="translate(0 366) scale(1 2.2) translate(0 -378)">
-        <path d="M162 378h36l5 9v110c0 13-8 25-15 31h-16c-7-6-15-18-15-31V387Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M181 381h17l5 6v110c0 13-5 23-12 30h-10Z" fill="#343a3b" opacity=".86"/>
-        <path d="M162 397h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41" stroke="#989b94" stroke-width="1" opacity=".7"/>
-        <!-- Booster grid fins -->
-        <path d="m162 399-20 5v31l20-3m41-33 20 5v31l-20-3" fill="#929690" stroke="#666a66" stroke-width="2"/>
-        <path d="M143 407v24m7-26v24m59-22v24m7-22v24" stroke="#d4d5ce" stroke-width="1"/>
-        <path d="m163 493-20 12 5 25 27-13m23-24 20 12-5 25-27-13Z" fill="#aeb1ab" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
-        <!-- Booster engine section and exhaust -->
-        <path d="M158 509c-4 17-10 32-9 50 9-9 17-14 31-16 14 2 22 7 31 16-1-18-7-33-11-50Z" fill="url(#exhaust)"/>
-        <path d="M166 506h30m-25 8h20" stroke="#666a66" stroke-width="3" stroke-linecap="round"/>
-        </g>
+        <circle cx="180" cy="180" r="158" fill="#efeee6"/>
+        <g fill="#aaa99c"><circle cx="81" cy="94" r="2"/><circle cx="276" cy="118" r="2.5"/><circle cx="270" cy="257" r="1.8"/><circle cx="98" cy="276" r="1.5"/></g>
+        <g transform="rotate(9 180 180)">
+          <path d="M163 224c-5 22-17 43-13 67 10-10 20-17 30-19 10 2 20 9 30 19 4-24-8-45-13-67Z" fill="url(#rocket-flame)"/>
+          <path d="M180 45c-27 39-46 90-46 143 0 43 18 67 46 77 28-10 46-34 46-77 0-53-19-104-46-143Z" fill="url(#rocket-hull)" stroke="#77786f" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M180 47c-11 42-16 89-16 141 0 37 6 62 16 77" fill="none" stroke="#c5c2b6" stroke-width="1.5"/>
+          <path d="M152 143c-22 12-42 32-57 58 20-7 37-9 55-5m60-53c22 12 42 32 57 58-20-7-37-9-55-5Z" fill="#e0744f" fill-opacity=".82" stroke="#77786f" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="180" cy="105" r="10" fill="#a9c2c4" stroke="#77786f" stroke-width="1.5"/>
+          <path d="M170 227h20m-17 10h14" stroke="#aaa99c" stroke-width="2" stroke-linecap="round"/>
         </g>
       </svg>
       <div class="index" aria-hidden="true">01 <i></i> 01</div>

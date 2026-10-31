@@ -16,7 +16,7 @@ h1 { position: relative; z-index: 1; margin: 0; font-size: clamp(64px, 10vw, 128
 h1 span { color: #a2a398; }
 h1 em { color: #e0744f; font-family: Georgia, serif; font-weight: 400; letter-spacing: -.09em; }
 .summary { max-width: 360px; margin: 30px 0 0; color: #70736a; font-size: 15px; line-height: 1.75; }
-.starship { position: absolute; right: 2%; top: 50%; width: clamp(200px, 25vw, 300px); height: auto; transform: translateY(-50%); }
+.starship { position: absolute; right: 2%; top: 50%; width: 320px; height: auto; transform: translateY(-50%); }
 .index { position: absolute; right: 0; bottom: 34px; display: flex; align-items: center; gap: 10px; color: #898b82; font-size: 9px; letter-spacing: .1em; }
 .index i { width: 35px; height: 1px; background: #d3d4cb; }
 @media (max-width: 600px) {
@@ -27,5 +27,5 @@ h1 em { color: #e0744f; font-family: Georgia, serif; font-weight: 400; letter-sp
   nav svg { width: 15px; height: 15px; }
   .intro { min-height: 700px; padding: 80px 0 100px; }
   h1 { font-size: clamp(54px, 12vw, 76px); }
-  .starship { right: -8%; top: 50%; width: 175px; opacity: .8; }
+  .starship { right: -6%; top: 55%; width: 205px; opacity: .9; }
 }
