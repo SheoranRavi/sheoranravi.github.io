@@ -3,19 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f8f4">
-  <meta name="description" content="Ravi Sheoran — developer, curious thinker, and builder of thoughtful web experiences.">
-  <title>Ravi Sheoran — Developer</title>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Ravi Sheoran's personal website.">
+  <title>Ravi Sheoran</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
-    <nav class="nav"><a class="brand" href="#top" aria-label="Ravi Sheoran home">RS<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Work</a><a class="contact-link" href="mailto:hello@ravisheoran.com">Say hello <span>↗</span></a></div></nav>
-    <section class="hero" id="top"><div class="eyebrow"><span class="pulse"></span> OPEN TO WHAT’S NEXT</div><h1>Making the web<br>a little <em>more human.</em></h1><p class="intro">Hey, I’m Ravi — a developer who enjoys turning thoughtful ideas into useful, thoughtful experiences.</p><a class="button" href="#work">Explore my work <span>↓</span></a><div class="hero-mark" aria-hidden="true">✳</div></section>
-    <section class="about" id="about"><div class="section-label">A LITTLE ABOUT ME <span>01 / 03</span></div><div><h2>Good work starts<br>with <em>good questions.</em></h2><p>I like getting to the heart of a problem, then making something clear, useful, and a joy to use. This is my corner of the internet to share what I’m working on and what I’m learning.</p></div></section>
-    <section class="work" id="work"><div class="section-label">THINGS IN MY ORBIT <span>02 / 03</span></div><div class="project-list"><article class="project"><span class="project-num">01</span><div><span class="tag">SELECTED WORK</span><h3>Things I’m building</h3><p>A collection of experiments, ideas, and projects in progress.</p></div><span class="arrow">↗</span></article><article class="project"><span class="project-num">02</span><div><span class="tag">WRITING</span><h3>Notes &amp; learning</h3><p>Curious by nature. Sharing useful things I learn along the way.</p></div><span class="arrow">↗</span></article><article class="project"><span class="project-num">03</span><div><span class="tag">COMMUNITY</span><h3>Open source</h3><p>Small contributions and tools made better by building in public.</p></div><span class="arrow">↗</span></article></div></section>
-    <footer><div class="section-label">03 / 03 — KEEP IN TOUCH</div><div class="footer-main"><h2>Have a good<br><em>one in mind?</em></h2><a class="mail" href="mailto:hello@ravisheoran.com">Let’s talk <span>↗</span></a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Ravi Sheoran</span><span>MADE WITH CURIOSITY <b>✳</b></span><a href="https://github.com/">GITHUB ↗</a></div></footer>
+    <header><a class="name" href="./">Ravi Sheoran<span>.</span></a><nav aria-label="Contact links"><a href="https://github.com/sheoranravi" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.78 2.48 3.25 1.76.1-.72.39-1.21.7-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.75 1.03.75 2.08V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub</a><a href="mailto:ravisheoran@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3v-13Zm1.2 1.1 7.8 6.1 7.8-6.1"/></svg>Email</a></nav></header>
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h1 id="intro-title">I love making<br><span>things that</span><br><em>solve problems.</em></h1>
+      <p class="summary">Curious by nature. Happiest turning a good idea into something real.</p>
+      <svg class="starship" viewBox="0 0 360 850" role="img" aria-label="Stylized two-stage Starship and Super Heavy rocket in flight">
+        <defs>
+          <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#888b86"/><stop offset=".18" stop-color="#d7d8d1"/><stop offset=".48" stop-color="#f5f4ed"/><stop offset=".76" stop-color="#c5c7c0"/><stop offset="1" stop-color="#777a75"/></linearGradient>
+          <linearGradient id="exhaust" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff1bd"/><stop offset=".38" stop-color="#ef9b61" stop-opacity=".8"/><stop offset="1" stop-color="#e0744f" stop-opacity="0"/></linearGradient>
+        </defs>
+        <circle cx="180" cy="280" r="218" fill="#efeee6"/>
+        <g fill="#aaa99c"><circle cx="55" cy="143" r="2"/><circle cx="292" cy="166" r="2.5"/><circle cx="300" cy="360" r="1.8"/><circle cx="61" cy="405" r="1.5"/><circle cx="238" cy="80" r="1.5"/></g>
+        <g transform="rotate(9 180 290)">
+        <!-- Long stainless body, pointed nose and tapered engine section -->
+        <path d="M180 36c-8 17-25 43-31 72l-7 48v155c0 17 8 31 18 40l4 15h32l4-15c10-9 18-23 18-40V156l-7-48c-6-29-23-55-31-72Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
+        <!-- Dark heat-shield side and tiled edge -->
+        <path d="M180 39c7 16 19 43 23 70l6 48v154c0 17-5 29-13 38l-5 17h-11Z" fill="#343a3b" opacity=".88"/>
+        <path d="M181 40c-8 20-15 45-18 69l-7 47v155c0 16 6 29 14 39m51-195h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80m80 12h-80" fill="none" stroke="#999b94" stroke-width="1" opacity=".65"/>
+        <!-- Forward flaps -->
+        <path d="m145 151-27 20-8 42 35-14Zm70 0 27 20 8 42-35-14Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
+        <!-- Aft flaps -->
+        <path d="m144 292-37 14 7 44 47-21Zm72 0 37 14-7 44-47-21Z" fill="#aeb1ab" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M144 159h72M143 287h74M164 363h32" stroke="#666a66" stroke-width="2"/>
+        <path d="M169 83h22" stroke="#aeb1ab" stroke-width="2" opacity=".75"/>
+        <!-- Super Heavy booster stage, joined directly to Starship -->
+        <g transform="translate(0 366) scale(1 2.2) translate(0 -378)">
+        <path d="M162 378h36l5 9v110c0 13-8 25-15 31h-16c-7-6-15-18-15-31V387Z" fill="url(#steel)" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M181 381h17l5 6v110c0 13-5 23-12 30h-10Z" fill="#343a3b" opacity=".86"/>
+        <path d="M162 397h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41m-41 11h41" stroke="#989b94" stroke-width="1" opacity=".7"/>
+        <!-- Booster grid fins -->
+        <path d="m162 399-20 5v31l20-3m41-33 20 5v31l-20-3" fill="#929690" stroke="#666a66" stroke-width="2"/>
+        <path d="M143 407v24m7-26v24m59-22v24m7-22v24" stroke="#d4d5ce" stroke-width="1"/>
+        <path d="m163 493-20 12 5 25 27-13m23-24 20 12-5 25-27-13Z" fill="#aeb1ab" stroke="#777a75" stroke-width="2" stroke-linejoin="round"/>
+        <!-- Booster engine section and exhaust -->
+        <path d="M158 509c-4 17-10 32-9 50 9-9 17-14 31-16 14 2 22 7 31 16-1-18-7-33-11-50Z" fill="url(#exhaust)"/>
+        <path d="M166 506h30m-25 8h20" stroke="#666a66" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        </g>
+      </svg>
+      <div class="index" aria-hidden="true">01 <i></i> 01</div>
+    </section>
   </main>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
