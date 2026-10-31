@@ -1,16 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#f8f8f4">
-    <meta name="description" content="Ravi Sheoran — developer, curious thinker, and builder of thoughtful web experiences.">
-    <title>Ravi Sheoran — Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f4">
+  <meta name="description" content="Ravi Sheoran — developer, curious thinker, and builder of thoughtful web experiences.">
+  <title>Ravi Sheoran — Developer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- <div id="root"></div> -->
-
-    <script src="./public/main.js"></script>
+  <main>
+    <nav class="nav"><a class="brand" href="#top" aria-label="Ravi Sheoran home">RS<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Work</a><a class="contact-link" href="mailto:hello@ravisheoran.com">Say hello <span>↗</span></a></div></nav>
+    <section class="hero" id="top"><div class="eyebrow"><span class="pulse"></span> OPEN TO WHAT’S NEXT</div><h1>Making the web<br>a little <em>more human.</em></h1><p class="intro">Hey, I’m Ravi — a developer who enjoys turning thoughtful ideas into useful, thoughtful experiences.</p><a class="button" href="#work">Explore my work <span>↓</span></a><div class="hero-mark" aria-hidden="true">✳</div></section>
+    <section class="about" id="about"><div class="section-label">A LITTLE ABOUT ME <span>01 / 03</span></div><div><h2>Good work starts<br>with <em>good questions.</em></h2><p>I like getting to the heart of a problem, then making something clear, useful, and a joy to use. This is my corner of the internet to share what I’m working on and what I’m learning.</p></div></section>
+    <section class="work" id="work"><div class="section-label">THINGS IN MY ORBIT <span>02 / 03</span></div><div class="project-list"><article class="project"><span class="project-num">01</span><div><span class="tag">SELECTED WORK</span><h3>Things I’m building</h3><p>A collection of experiments, ideas, and projects in progress.</p></div><span class="arrow">↗</span></article><article class="project"><span class="project-num">02</span><div><span class="tag">WRITING</span><h3>Notes &amp; learning</h3><p>Curious by nature. Sharing useful things I learn along the way.</p></div><span class="arrow">↗</span></article><article class="project"><span class="project-num">03</span><div><span class="tag">COMMUNITY</span><h3>Open source</h3><p>Small contributions and tools made better by building in public.</p></div><span class="arrow">↗</span></article></div></section>
+    <footer><div class="section-label">03 / 03 — KEEP IN TOUCH</div><div class="footer-main"><h2>Have a good<br><em>one in mind?</em></h2><a class="mail" href="mailto:hello@ravisheoran.com">Let’s talk <span>↗</span></a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Ravi Sheoran</span><span>MADE WITH CURIOSITY <b>✳</b></span><a href="https://github.com/">GITHUB ↗</a></div></footer>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
