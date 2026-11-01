@@ -9,6 +9,7 @@ nav { display: flex; align-items: center; gap: 25px; }
 nav a { display: inline-flex; align-items: center; gap: 8px; color: #51544b; font-size: 12px; text-decoration: none; transition: color .2s; }
 nav a:hover { color: #e0744f; }
 nav svg { width: 16px; height: 16px; fill: currentColor; }
+nav .line-icon { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 nav a:last-child svg { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .intro { position: relative; flex: 1; min-height: 780px; display: flex; flex-direction: column; justify-content: center; padding: 95px 0 120px; overflow: hidden; }
 .eyebrow { margin: 0 0 28px; color: #787b70; font-size: 10px; font-weight: 600; letter-spacing: .17em; }

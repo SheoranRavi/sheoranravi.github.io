@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: /blog/
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,22 +10,31 @@
   <meta name="theme-color" content="#f7f7f2">
   <meta name="description" content="Writing and notes by Ravi Sheoran.">
   <title>Blog — Ravi Sheoran</title>
-  <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/blog/blog.css' | relative_url }}">
 </head>
 <body>
   <main class="blog-page">
     <header>
-      <a class="name" href="../">Ravi Sheoran<span>.</span></a>
-      <a class="back-link" href="../">← Home</a>
+      <a class="name" href="{{ '/' | relative_url }}">Ravi Sheoran<span>.</span></a>
+      <a class="back-link" href="{{ '/' | relative_url }}">← Home</a>
     </header>
     <section class="blog-intro" aria-labelledby="blog-title">
       <p class="eyebrow">WRITING &amp; NOTES</p>
       <h1 id="blog-title">Blog<span>.</span></h1>
       <p class="blog-description">Thoughts, notes, and things I’ve learned.</p>
     </section>
-    <section class="empty-state" aria-label="Blog posts">
-      <p>There are no posts here yet.</p>
+    <section class="post-list" aria-label="Blog posts">
+      {% assign posts = site.posts | sort: 'date' | reverse %}
+      {% for post in posts %}
+      <article class="post-list-item">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+      </article>
+      {% else %}
+      <p class="empty-state">No posts yet. Check back soon.</p>
+      {% endfor %}
     </section>
   </main>
 </body>

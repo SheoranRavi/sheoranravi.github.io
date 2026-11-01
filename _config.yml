@@ -1,0 +1,5 @@
+title: Ravi Sheoran
+url: ""
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
