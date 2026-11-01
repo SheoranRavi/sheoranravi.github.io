@@ -16,7 +16,6 @@
       <a class="back-link" href="{{ '/blog/' | relative_url }}">← All posts</a>
     </header>
     <article class="post-content">
-      <p class="eyebrow">WRITING &amp; NOTES</p>
       <h1>{{ page.title | escape }}</h1>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {{ content }}
