@@ -1,7 +1,7 @@
 # Publishing a blog post
 
 1. Create a Markdown file in `_posts/` using this format: `YYYY-MM-DD-short-title.md`.
-2. Add the front matter at the top, then write the post in Markdown:
+2. Copy only the contents inside the example below into the file. The first `---` must be the very first characters in the file: don't indent it or copy the surrounding Markdown code fences.
 
    ```markdown
    ---
